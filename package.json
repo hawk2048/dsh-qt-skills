@@ -1,6 +1,6 @@
 {
   "name": "dsh-qt-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Qt 官方 agent-skills（13 个 Qt/QML 技能）打包为 DeepSeek Harness 插件，并附带 Qt 文档 MCP。",
   "type": "module",
   "main": "lib/index.js",

@@ -46,7 +46,9 @@ dsh plugin --profile desktop add github:hawk2048/dsh-qt-skills
 
 ### 启用 QML 实时预览（可选）
 
-Qt 6.12+ 的安装目录自带 `bin/QmlPreviewMcpServer.exe`（Qt Online Installer 里勾选 *Agentic Development Tools → QML Live Preview for AI Agents*）。把 `cordis.patch.yml` 里被注释的四行打开、`command` 改成你的真实路径，重启即可。被预览的应用必须用 `-DQT_QML_DEBUG` 构建，**别把该宏带进发布版**（它会暴露调试端口）。
+Qt 6.12+ 的安装目录自带 `bin/QmlPreviewMcpServer.exe`（Qt Online Installer 里勾选 *Agentic Development Tools → QML Live Preview for AI Agents*）。把 `cordis.patch.yml` 里被注释的那几行打开、`command` 改成你的真实路径，重启即可。被预览的应用必须用 `-DQT_QML_DEBUG` 构建，**别把该宏带进发布版**（它会暴露调试端口）。
+
+> 手写这两类 MCP 行时注意：`name` 必须写 **`@deepseek-ai/dsh-mcp-client`**（短名 `dsh-mcp-client` 会 `ERR_MODULE_NOT_FOUND`），stdio 服务器必须显式写 `transport: stdio`，否则会按 streamable-http 处理并抛 `TypeError`。
 
 ## 已知限制
 
