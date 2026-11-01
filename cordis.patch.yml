@@ -1,0 +1,23 @@
+# dsh-qt-skills 的 bundle patch：安装本包后由 DSH 自动应用。
+# 手动安装（没有 bundle 机制时）把同样的 insert 行追加到
+# ~/.dsh/profiles/<profile>/cordis.patch.yml，然后重启。
+- insert:
+    # 1) 插件本体：注册 13 个 qt-* 技能（source = bundled）
+    - id: qt-skills
+      name: dsh-qt-skills
+
+    # 2) Qt 官方文档 MCP：托管服务，Streamable HTTP，无本地进程
+    - id: qt-docs-mcp
+      name: dsh-mcp-client
+      config:
+        serverName: qt-docs
+        url: https://qt-docs-mcp.qt.io/mcp
+
+    # 3) QML 实时预览 MCP：本地 stdio，但它指向的 exe 路径因机器而异
+    #    （Qt 6.12+ 安装目录的 bin/QmlPreviewMcpServer.exe），默认不启用。
+    #    要用就取消下面四行注释并改成你的真实路径，然后重启 DSH。
+    #    - id: qt-qml-preview-mcp
+    #      name: dsh-mcp-client
+    #      config:
+    #        serverName: qml-preview
+    #        command: C:/Qt/6.12.0/msvc2022_64/bin/QmlPreviewMcpServer.exe
