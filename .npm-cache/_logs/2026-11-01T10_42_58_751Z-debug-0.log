@@ -1,0 +1,216 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\wkliu\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.1
+2 info using node@v24.19.0
+3 silly config load:file:C:\Users\wkliu\AppData\Roaming\npm\node_modules\npm\npmrc
+4 warn Unknown env config "side-effects-cache". This will stop working in the next major version of npm.
+5 silly config load:file:D:\AI\DeepSeek Harness\dsh-qt-skills\.npmrc
+6 silly config load:file:C:\Users\wkliu\.npmrc
+7 silly config load:file:C:\Users\wkliu\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm pack
+9 verbose argv "pack" "--dry-run" "--cache" ".npm-cache"
+10 verbose logfile logs-max:10 dir:D:\AI\DeepSeek Harness\dsh-qt-skills\.npm-cache\_logs\2026-11-01T10_42_58_751Z-
+11 verbose logfile D:\AI\DeepSeek Harness\dsh-qt-skills\.npm-cache\_logs\2026-11-01T10_42_58_751Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 http fetch GET 200 https://registry.npmmirror.com/npm 86ms
+15 notice
+16 notice package: dsh-qt-skills@0.1.0
+17 notice Tarball Contents
+18 notice 1.9kB LICENSE
+18 notice 1.6kB LICENSE.upstream
+18 notice 3.8kB README.md
+18 notice 1.8kB agents/cpp-review-agent.md
+18 notice 1.8kB agents/qml-review-agent.md
+18 notice 1.0kB cordis.patch.yml
+18 notice 4.7kB lib/index.js
+18 notice 1.0kB package.json
+18 notice 1.5kB skills/qt-canvas2d/LICENSE.txt
+18 notice 25.2kB skills/qt-canvas2d/references/api-reference.md
+18 notice 7.8kB skills/qt-canvas2d/references/porting.md
+18 notice 5.5kB skills/qt-canvas2d/references/recipes/analog-clock.qml
+18 notice 5.6kB skills/qt-canvas2d/references/recipes/animated-line-chart.qml
+18 notice 3.8kB skills/qt-canvas2d/references/recipes/bar-chart.qml
+18 notice 5.8kB skills/qt-canvas2d/references/recipes/color-effects-and-clipping.qml
+18 notice 4.3kB skills/qt-canvas2d/references/recipes/freehand-drawing.qml
+18 notice 3.7kB skills/qt-canvas2d/references/recipes/images-and-patterns.qml
+18 notice 5.9kB skills/qt-canvas2d/references/recipes/level-meter.qml
+18 notice 4.8kB skills/qt-canvas2d/references/recipes/node-link-diagram.qml
+18 notice 4.2kB skills/qt-canvas2d/references/recipes/oscilloscope.qml
+18 notice 6.5kB skills/qt-canvas2d/references/recipes/pan-zoom-viewport.qml
+18 notice 7.3kB skills/qt-canvas2d/references/recipes/pie-donut-chart.qml
+18 notice 3.4kB skills/qt-canvas2d/references/recipes/progress-ring.qml
+18 notice 5.0kB skills/qt-canvas2d/references/recipes/radial-gauge.qml
+18 notice 7.6kB skills/qt-canvas2d/references/recipes/rotary-knob.qml
+18 notice 4.6kB skills/qt-canvas2d/references/recipes/scatter-plot.qml
+18 notice 4.5kB skills/qt-canvas2d/references/recipes/shadowed-card-button.qml
+18 notice 5.3kB skills/qt-canvas2d/references/recipes/sparkline-delegate.qml
+18 notice 3.4kB skills/qt-canvas2d/references/recipes/static-shapes.qml
+18 notice 5.1kB skills/qt-canvas2d/references/recipes/text-panel.qml
+18 notice 3.9kB skills/qt-canvas2d/references/rules.md
+18 notice 13.7kB skills/qt-canvas2d/SKILL.md
+18 notice 1.5kB skills/qt-cmake-project/LICENSE.txt
+18 notice 9.3kB skills/qt-cmake-project/references/common-mistakes.md
+18 notice 1.3kB skills/qt-cmake-project/references/configure.md
+18 notice 9.2kB skills/qt-cmake-project/references/modular-architecture.md
+18 notice 12.6kB skills/qt-cmake-project/references/qml-integration.md
+18 notice 8.4kB skills/qt-cmake-project/references/resources.md
+18 notice 4.9kB skills/qt-cmake-project/references/simple-project.md
+18 notice 10.3kB skills/qt-cmake-project/SKILL.md
+18 notice 1.5kB skills/qt-cpp-docs/LICENSE.txt
+18 notice 25.3kB skills/qt-cpp-docs/SKILL.md
+18 notice 1.5kB skills/qt-cpp-review/LICENSE.txt
+18 notice 1.3kB skills/qt-cpp-review/platforms/windsurf.md
+18 notice 10.7kB skills/qt-cpp-review/references/agent-rules.md
+18 notice 38.6kB skills/qt-cpp-review/references/lint-scripts/qt_review_lint.py
+18 notice 2.5kB skills/qt-cpp-review/references/qt-deprecated-classes.md
+18 notice 7.1kB skills/qt-cpp-review/references/qt-framework-checklist.md
+18 notice 11.4kB skills/qt-cpp-review/references/qt-review-checklist.md
+18 notice 12.2kB skills/qt-cpp-review/SKILL.md
+18 notice 4.3kB skills/qt-figma-component-generation/assets/qt-controls/BadgeLabel.qml
+18 notice 3.6kB skills/qt-figma-component-generation/assets/qt-controls/BadgeLabelStyle.qml
+18 notice 4.0kB skills/qt-figma-component-generation/assets/qt-controls/BadgeNotification.qml
+18 notice 2.9kB skills/qt-figma-component-generation/assets/qt-controls/BadgeNotificationStyle.qml
+18 notice 6.0kB skills/qt-figma-component-generation/assets/qt-controls/Button.qml
+18 notice 8.6kB skills/qt-figma-component-generation/assets/qt-controls/ButtonStyle.qml
+18 notice 23.8kB skills/qt-figma-component-generation/assets/qt-controls/Card.qml
+18 notice 4.6kB skills/qt-figma-component-generation/assets/qt-controls/CardStyle.qml
+18 notice 4.4kB skills/qt-figma-component-generation/assets/qt-controls/CheckBox.qml
+18 notice 5.7kB skills/qt-figma-component-generation/assets/qt-controls/CheckBoxStyle.qml
+18 notice 7.5kB skills/qt-figma-component-generation/assets/qt-controls/ComboBox.qml
+18 notice 7.1kB skills/qt-figma-component-generation/assets/qt-controls/ComboBoxStyle.qml
+18 notice 4.4kB skills/qt-figma-component-generation/assets/qt-controls/Dialog.qml
+18 notice 2.1kB skills/qt-figma-component-generation/assets/qt-controls/DialogButtonBox.qml
+18 notice 1.2kB skills/qt-figma-component-generation/assets/qt-controls/DialogButtonBoxStyle.qml
+18 notice 2.2kB skills/qt-figma-component-generation/assets/qt-controls/DialogStyle.qml
+18 notice 4.3kB skills/qt-figma-component-generation/assets/qt-controls/IconButton.qml
+18 notice 4.9kB skills/qt-figma-component-generation/assets/qt-controls/IconButtonStyle.qml
+18 notice 2.3kB skills/qt-figma-component-generation/assets/qt-controls/Indicator.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/IndicatorStyle.qml
+18 notice 2.9kB skills/qt-figma-component-generation/assets/qt-controls/ItemDelegate.qml
+18 notice 2.5kB skills/qt-figma-component-generation/assets/qt-controls/ItemDelegateStyle.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/Label.qml
+18 notice 1.3kB skills/qt-figma-component-generation/assets/qt-controls/LabelStyle.qml
+18 notice 2.0kB skills/qt-figma-component-generation/assets/qt-controls/LinkInline.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/LinkInlineStyle.qml
+18 notice 2.5kB skills/qt-figma-component-generation/assets/qt-controls/LinkList.qml
+18 notice 1.8kB skills/qt-figma-component-generation/assets/qt-controls/LinkListStyle.qml
+18 notice 2.6kB skills/qt-figma-component-generation/assets/qt-controls/LinkStandalone.qml
+18 notice 1.7kB skills/qt-figma-component-generation/assets/qt-controls/LinkStandaloneStyle.qml
+18 notice 6.7kB skills/qt-figma-component-generation/assets/qt-controls/ListItem.qml
+18 notice 3.0kB skills/qt-figma-component-generation/assets/qt-controls/ListItemStyle.qml
+18 notice 2.1kB skills/qt-figma-component-generation/assets/qt-controls/Menu.qml
+18 notice 4.7kB skills/qt-figma-component-generation/assets/qt-controls/MenuButton.qml
+18 notice 3.2kB skills/qt-figma-component-generation/assets/qt-controls/MenuButtonStyle.qml
+18 notice 2.8kB skills/qt-figma-component-generation/assets/qt-controls/MenuItem.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/MenuItemStyle.qml
+18 notice 1.3kB skills/qt-figma-component-generation/assets/qt-controls/MenuStyle.qml
+18 notice 2.8kB skills/qt-figma-component-generation/assets/qt-controls/PaginationDot.qml
+18 notice 2.4kB skills/qt-figma-component-generation/assets/qt-controls/PaginationDotStyle.qml
+18 notice 2.4kB skills/qt-figma-component-generation/assets/qt-controls/PaginationIndex.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/PaginationIndexStyle.qml
+18 notice 11.2kB skills/qt-figma-component-generation/assets/qt-controls/PaginationNumber.qml
+18 notice 3.7kB skills/qt-figma-component-generation/assets/qt-controls/PaginationNumberStyle.qml
+18 notice 1.5kB skills/qt-figma-component-generation/assets/qt-controls/Popup.qml
+18 notice 1.1kB skills/qt-figma-component-generation/assets/qt-controls/PopupStyle.qml
+18 notice 3.2kB skills/qt-figma-component-generation/assets/qt-controls/ProgressBar.qml
+18 notice 1.6kB skills/qt-figma-component-generation/assets/qt-controls/ProgressBarStyle.qml
+18 notice 3.2kB skills/qt-figma-component-generation/assets/qt-controls/RadioButton.qml
+18 notice 3.2kB skills/qt-figma-component-generation/assets/qt-controls/RadioButtonStyle.qml
+18 notice 5.2kB skills/qt-figma-component-generation/assets/qt-controls/RangeSlider.qml
+18 notice 3.9kB skills/qt-figma-component-generation/assets/qt-controls/RangeSliderStyle.qml
+18 notice 2.8kB skills/qt-figma-component-generation/assets/qt-controls/ScrollBar.qml
+18 notice 3.5kB skills/qt-figma-component-generation/assets/qt-controls/ScrollBarStyle.qml
+18 notice 6.3kB skills/qt-figma-component-generation/assets/qt-controls/SearchField.qml
+18 notice 4.2kB skills/qt-figma-component-generation/assets/qt-controls/SearchFieldStyle.qml
+18 notice 15.3kB skills/qt-figma-component-generation/assets/qt-controls/SearchMenu.qml
+18 notice 4.9kB skills/qt-figma-component-generation/assets/qt-controls/SearchMenuStyle.qml
+18 notice 4.0kB skills/qt-figma-component-generation/assets/qt-controls/Slider.qml
+18 notice 4.0kB skills/qt-figma-component-generation/assets/qt-controls/SliderStyle.qml
+18 notice 1.7kB skills/qt-figma-component-generation/assets/qt-controls/SortFilterModel.qml
+18 notice 6.1kB skills/qt-figma-component-generation/assets/qt-controls/SpinBox.qml
+18 notice 3.7kB skills/qt-figma-component-generation/assets/qt-controls/SpinBoxStyle.qml
+18 notice 3.7kB skills/qt-figma-component-generation/assets/qt-controls/Switch.qml
+18 notice 3.2kB skills/qt-figma-component-generation/assets/qt-controls/SwitchStyle.qml
+18 notice 2.1kB skills/qt-figma-component-generation/assets/qt-controls/TabBar.qml
+18 notice 927B skills/qt-figma-component-generation/assets/qt-controls/TabBarStyle.qml
+18 notice 4.5kB skills/qt-figma-component-generation/assets/qt-controls/TabButton.qml
+18 notice 4.5kB skills/qt-figma-component-generation/assets/qt-controls/TabButtonStyle.qml
+18 notice 4.6kB skills/qt-figma-component-generation/assets/qt-controls/Tag.qml
+18 notice 3.3kB skills/qt-figma-component-generation/assets/qt-controls/TagStyle.qml
+18 notice 7.3kB skills/qt-figma-component-generation/assets/qt-controls/TextField.qml
+18 notice 4.9kB skills/qt-figma-component-generation/assets/qt-controls/TextFieldStyle.qml
+18 notice 1.6kB skills/qt-figma-component-generation/assets/qt-controls/Toolbar.qml
+18 notice 1.1kB skills/qt-figma-component-generation/assets/qt-controls/ToolbarStyle.qml
+18 notice 7.7kB skills/qt-figma-component-generation/assets/qt-controls/ToolTip.qml
+18 notice 2.3kB skills/qt-figma-component-generation/assets/qt-controls/ToolTipStyle.qml
+18 notice 4.5kB skills/qt-figma-component-generation/assets/qt-controls/TreeViewDelegate.qml
+18 notice 3.0kB skills/qt-figma-component-generation/assets/qt-controls/TreeViewDelegateStyle.qml
+18 notice 12.0kB skills/qt-figma-component-generation/references/Button.qml
+18 notice 7.5kB skills/qt-figma-component-generation/references/Checkbox.qml
+18 notice 10.1kB skills/qt-figma-component-generation/references/Select.qml
+18 notice 7.5kB skills/qt-figma-component-generation/references/TextField.qml
+18 notice 4.9kB skills/qt-figma-component-generation/references/Toggle.qml
+18 notice 17.1kB skills/qt-figma-component-generation/SKILL.md
+18 notice 3.3kB skills/qt-figma-token-extraction/examples/FontInterface.qml
+18 notice 3.0kB skills/qt-figma-token-extraction/examples/Primitives.qml
+18 notice 3.6kB skills/qt-figma-token-extraction/examples/Spacing.qml
+18 notice 5.3kB skills/qt-figma-token-extraction/examples/Theme.qml
+18 notice 3.0kB skills/qt-figma-token-extraction/examples/Typography.qml
+18 notice 5.8kB skills/qt-figma-token-extraction/references/token-mapping.md
+18 notice 30.2kB skills/qt-figma-token-extraction/SKILL.md
+18 notice 1.5kB skills/qt-qml-docs/LICENSE.txt
+18 notice 1.1kB skills/qt-qml-docs/platforms/windsurf.md
+18 notice 10.2kB skills/qt-qml-docs/SKILL.md
+18 notice 1.5kB skills/qt-qml-profiler/LICENSE.txt
+18 notice 6.1kB skills/qt-qml-profiler/references/qml-performance-anti-patterns.md
+18 notice 15.4kB skills/qt-qml-profiler/references/scripts/parse-qmlprofiler-trace.py
+18 notice 25.2kB skills/qt-qml-profiler/SKILL.md
+18 notice 1.5kB skills/qt-qml-review/LICENSE.txt
+18 notice 1.7kB skills/qt-qml-review/platforms/windsurf.md
+18 notice 11.0kB skills/qt-qml-review/references/agent-rules.md
+18 notice 71.5kB skills/qt-qml-review/references/lint-scripts/qt_qml_lint.py
+18 notice 13.2kB skills/qt-qml-review/references/qt-qml-review-checklist.md
+18 notice 10.4kB skills/qt-qml-review/SKILL.md
+18 notice 1.5kB skills/qt-qml-test-run/LICENSE.txt
+18 notice 18.2kB skills/qt-qml-test-run/references/qt-quick-test-cmake.md
+18 notice 7.7kB skills/qt-qml-test-run/references/qt-quick-test-report-format.md
+18 notice 6.8kB skills/qt-qml-test-run/references/scripts/parse-qmltestrunner-output.py
+18 notice 18.1kB skills/qt-qml-test-run/SKILL.md
+18 notice 1.5kB skills/qt-qml-test/LICENSE.txt
+18 notice 21.9kB skills/qt-qml-test/platforms/copilot.prompt.md
+18 notice 14.3kB skills/qt-qml-test/references/qt-quick-test-controls.md
+18 notice 9.6kB skills/qt-qml-test/references/qt-quick-test-pitfalls.md
+18 notice 1.0kB skills/qt-qml-test/references/qt-quick-test-pre-send-scan.md
+18 notice 1.4kB skills/qt-qml-test/references/qt-quick-test-project-context.md
+18 notice 6.5kB skills/qt-qml-test/references/qt-quick-test-properties.md
+18 notice 14.8kB skills/qt-qml-test/references/qt-quick-test-rules.md
+18 notice 2.8kB skills/qt-qml-test/references/qt-quick-test-source-import.md
+18 notice 15.2kB skills/qt-qml-test/references/qt-quick-test-template.md
+18 notice 17.1kB skills/qt-qml-test/SKILL.md
+18 notice 1.5kB skills/qt-qml/LICENSE.txt
+18 notice 1.5kB skills/qt-qml/platforms/windsurf.md
+18 notice 7.1kB skills/qt-qml/references/qmlpreview.md
+18 notice 18.1kB skills/qt-qml/SKILL.md
+18 notice 1.5kB skills/qt-ui-design/LICENSE.txt
+18 notice 25.9kB skills/qt-ui-design/SKILL.md
+19 notice Tarball Details
+20 notice name: dsh-qt-skills
+21 notice version: 0.1.0
+22 notice filename: dsh-qt-skills-0.1.0.tgz
+23 notice package size: 304.9 kB
+24 notice unpacked size: 1.1 MB
+25 notice shasum: 6fd6d2c0e8388c375b5099b13e110ebad3be599b
+26 notice integrity: sha512-qGLBHgWgi5sbu[...]ET8/8LkbeVjKw==
+27 notice total files: 177
+28 notice
+29 verbose cwd D:\AI\DeepSeek Harness\dsh-qt-skills
+30 verbose os Windows_NT 10.0.22631
+31 verbose node v24.19.0
+32 verbose npm  v11.5.1
+33 notice
+33 notice New major version of npm available! 11.5.1 -> 12.2.1
+33 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+33 notice To update run: npm install -g npm@12.2.1
+33 notice  { force: true, Symbol(proc-log.meta): true }
+34 verbose exit 0
+35 info ok
